@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .check-color1:focus {
+            border-color: #ff0000;
+            outline: 0;
+            box-shadow: 0 0 0 .25rem rgba(255, 0, 0, 0.25);
+        }
+
+        .check-color1:checked {
+            border-color: red;
+        }
+
+        .check-color2:focus {
+            border-color: #0d6efd;
+            outline: 0;
+            box-shadow: 0 0 0 .25rem rgba(0, 103, 255, 0.25);
+        }
+
+        .check-color2:checked {
+            border-color: #0d6efd;
+        }
+
+        .check-color3:focus {
+            border-color: #0dcaf0;
+            outline: 0;
+            box-shadow: 0 0 0 .25rem rgba(0, 212, 255, 0.25);
+        }
+
+        .check-color3:checked {
+            border-color: #0dcaf0;
+        }
+        .check-color4:focus {
+            border-color: #ffc107;
+            outline: 0;
+            box-shadow: 0 0 0 .25rem rgba(255, 193, 8, 0.25);
+        }
+
+        .check-color4:checked {
+            border-color: #ffc107;
+        }
+        .check-color5:focus {
+            border-color: #198754;
+            outline: 0;
+            box-shadow: 0 0 0 .25rem rgba(0, 255, 36, 0.25);
+        }
+
+        .check-color5:checked {
+            border-color: #198754;
+        }
+        .check-color6:focus {
+            border-color: #212529;
+            outline: 0;
+            box-shadow: 0 0 0 .25rem rgba(33, 37, 41, 0.25);
+        }
+
+        .check-color6:checked {
+            border-color: #212529;
+        }
+
+        .form-switch .form-check-input:focus {
+            background-image: url("download.svg");
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container my-5">
+        <div class="form-check form-switch">
+            <input class="form-check-input check-color1 bg-danger" type="checkbox" role="switch"
+                id="flexSwitchCheckChecked" checked>
+            <label class="form-check-label" for="flexSwitchCheckChecked">Male</label>
+        </div>
+        <div class="form-check form-switch">
+            <input class="form-check-input check-color2 bg-primary" type="checkbox" role="switch"
+                id="flexSwitchCheckChecked" checked>
+            <label class="form-check-label" for="flexSwitchCheckChecked">Male</label>
+        </div>
+        <div class="form-check form-switch">
+            <input class="form-check-input check-color3 bg-info" type="checkbox" role="switch"
+                id="flexSwitchCheckChecked" checked>
+            <label class="form-check-label" for="flexSwitchCheckChecked">Male</label>
+        </div>
+        <div class="form-check form-switch">
+            <input class="form-check-input check-color4 bg-warning" type="checkbox" role="switch"
+                id="flexSwitchCheckChecked" checked>
+            <label class="form-check-label" for="flexSwitchCheckChecked">Male</label>
+        </div>
+        <div class="form-check form-switch">
+            <input class="form-check-input check-color5 bg-success" type="checkbox" role="switch"
+                id="flexSwitchCheckChecked" checked>
+            <label class="form-check-label" for="flexSwitchCheckChecked">Male</label>
+        </div>
+        <div class="form-check form-switch">
+            <input class="form-check-input check-color6 bg-dark" type="checkbox" role="switch"
+                id="flexSwitchCheckChecked" checked>
+            <label class="form-check-label" for="flexSwitchCheckChecked">Male</label>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
